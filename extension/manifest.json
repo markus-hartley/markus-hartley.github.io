@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Scroll & Text Capture",
+  "version": "1.1",
+  "description": "Scrolls the active tab and collects visible text, then shows it in a new tab.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Scroll & Capture"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
